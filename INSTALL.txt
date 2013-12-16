@@ -1,5 +1,5 @@
 (* OASIS_START *)
-(* DO NOT EDIT (digest: 7da3d429f8f3f89babae684fbd3c6a4d) *)
+(* DO NOT EDIT (digest: fc900b0b683edbaa8ae820fc5f4294b4) *)
 This is the INSTALL file for the faillib distribution.
 
 This package uses OASIS to generate its build system. See section OASIS for
@@ -24,7 +24,7 @@ Installing
 Uninstalling
 ============
 
-1. Go to the root of the package 
+1. Go to the root of the package
 2. Run 'ocaml setup.ml -uninstall'
 
 OASIS
