@@ -5,7 +5,7 @@ let map = object
 
   method! expr : Ast.expr -> Ast.expr = function
   | Ast.ExId (loc, Ast.IdLid (_, "failwiths")) ->
-    <:expr@loc< failwithp ~here:$Pa_here.ast_of_loc loc$ >>
+    <:expr@loc< failwiths ~here:$Pa_here.ast_of_loc loc$ >>
   | e -> super#expr e
 end
 
