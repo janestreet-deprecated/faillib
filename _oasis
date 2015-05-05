@@ -22,7 +22,7 @@ Library faillib
   XMETAType:          library
 
 Library faillib_syntax
-  Path:               lib
+  Path:               src
   Modules:            Pa_fail
   FindlibParent:      faillib
   FindlibName:        syntax
